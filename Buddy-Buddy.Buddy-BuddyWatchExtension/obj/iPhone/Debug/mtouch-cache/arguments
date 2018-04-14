@@ -1,0 +1,24 @@
+# Version: 11.8.0.20 (d15-6: 1c6f300e)
+# [first argument, ignore] # --cache=/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.0.20/lib/mtouch/mtouch.exe \
+	--dev=/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/bin/iPhone/Debug/Buddy-BuddyBuddy-BuddyWatchExtension.appex \
+	--executable=Buddy-BuddyBuddy-BuddyWatchExtension \
+	--extension \
+	--fastdev \
+	--debug \
+	--linksdkonly \
+	--sdkroot=/Applications/Xcode.app/Contents/Developer \
+	--sdk=4.2 \
+	--targetver=3.0 \
+	--aot-options=-O=float32 \
+	--http-message-handler=NSUrlSessionHandler \
+	--abi=armv7k \
+	--symbollist=/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.WatchOS/mscorlib.dll \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.WatchOS/System.Core.dll \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.WatchOS/System.dll \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.WatchOS/System.Xml.dll \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.WatchOS/Xamarin.WatchOS.dll \
+	'--target-framework=Xamarin.WatchOS,v1.0' \
+	--root-assembly=/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/bin/iPhone/Debug/Buddy-BuddyBuddy-BuddyWatchExtension.dll \

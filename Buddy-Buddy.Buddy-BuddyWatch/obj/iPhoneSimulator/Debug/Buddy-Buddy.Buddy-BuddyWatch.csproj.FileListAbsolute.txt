@@ -1,0 +1,11 @@
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/bin/iPhoneSimulator/Debug/Buddy-BuddyBuddy-BuddyWatch.dll
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/bin/iPhoneSimulator/Debug/Buddy-BuddyBuddy-BuddyWatch.pdb
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/obj/iPhoneSimulator/Debug/optimized/
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/obj/iPhoneSimulator/Debug/Buddy-Buddy.Buddy-BuddyWatch.csproj.CoreCompileInputs.cache
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/obj/iPhoneSimulator/Debug/Buddy-BuddyBuddy-BuddyWatch.dll
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatch/obj/iPhoneSimulator/Debug/Buddy-BuddyBuddy-BuddyWatch.pdb

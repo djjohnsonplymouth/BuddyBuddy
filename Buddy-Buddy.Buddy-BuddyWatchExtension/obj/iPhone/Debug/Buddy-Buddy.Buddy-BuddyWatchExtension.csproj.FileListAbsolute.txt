@@ -1,0 +1,10 @@
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/bin/iPhone/Debug/Buddy-BuddyBuddy-BuddyWatchExtension.dll
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/bin/iPhone/Debug/Buddy-BuddyBuddy-BuddyWatchExtension.pdb
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/coremlc/_PartialAppManifest.items
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/optimized/
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/Buddy-Buddy.Buddy-BuddyWatchExtension.csproj.CoreCompileInputs.cache
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/Buddy-BuddyBuddy-BuddyWatchExtension.dll
+/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/Buddy-BuddyBuddy-BuddyWatchExtension.pdb

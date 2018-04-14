@@ -1,0 +1,51 @@
+Function=xamarin_timezone_get_data
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_get_block_descriptor
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_objc_msgSend
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_IntPtr_objc_msgSend
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_IntPtr_objc_msgSendSuper
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_IntPtr_objc_msgSend_IntPtr
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_bool_objc_msgSend_IntPtr
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_bool_objc_msgSendSuper_IntPtr
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_void_objc_msgSend_IntPtr
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_void_objc_msgSendSuper_IntPtr
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_IntPtr_objc_msgSend_IntPtr_UInt32
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_nuint_objc_msgSend
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_nuint_objc_msgSendSuper
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_bool_objc_msgSend
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_bool_objc_msgSendSuper
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_IntPtr_objc_msgSend_IntPtr_IntPtr
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_IntPtr_objc_msgSendSuper_IntPtr_IntPtr
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_void_objc_msgSend
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_void_objc_msgSendSuper
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_IntPtr_objc_msgSend_nuint
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=xamarin_pinvoke_wrapper_void_objc_msgSend_IntPtr_IntPtr_bool
+	/Users/danieljohnson/Projects/Buddy-Buddy/Buddy-Buddy.Buddy-BuddyWatchExtension/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.WatchOS.dll
+Function=mono_pmip

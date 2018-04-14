@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{6087CA86-44A0-4FE3-9895-569173EF263B}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>BuddyBuddy</RootNamespace>
+    <AssemblyName>Buddy-Buddy</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer: Daniel Johnson (DQ79GG89PK)</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>31505</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>VS: com.danjohnson.Buddy-Buddy Development</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer: Daniel Johnson (DQ79GG89PK)</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>VS: com.danjohnson.Buddy-Buddy Development</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer: Daniel Johnson (DQ79GG89PK)</CodesignKey>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>VS: com.danjohnson.Buddy-Buddy Development</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer: Daniel Johnson (DQ79GG89PK)</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>36188</IOSDebuggerPort>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>VS: com.danjohnson.Buddy-Buddy Development</CodesignProvision>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="SkiaSharp">
+      <HintPath>..\packages\SkiaSharp.1.60.0\lib\XamariniOS\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.iOS">
+      <HintPath>..\packages\SkiaSharp.Views.1.60.0\lib\XamariniOS\SkiaSharp.Views.iOS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\40 x 40-01.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\60 x 60-04.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\87 x 87-04.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\80 x 80-01.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120 x 120-04.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180 x 180-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewController.cs" />
+    <Compile Include="HomeViewController.designer.cs">
+      <DependentUpon>HomeViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BreathViewController.cs" />
+    <Compile Include="BreathViewController.designer.cs">
+      <DependentUpon>BreathViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticsViewController.cs" />
+    <Compile Include="StatisticsViewController.designer.cs">
+      <DependentUpon>StatisticsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\Chart.cs" />
+    <Compile Include="Chart\ChartView.cs" />
+    <Compile Include="Chart\Data.cs" />
+    <Compile Include="Chart\Entry.cs" />
+    <Compile Include="Chart\Extensions\CanvasExtensions.cs" />
+    <Compile Include="Chart\Helpers\RadialHelpers.cs" />
+    <Compile Include="Chart\Layouts\BarChart.cs" />
+    <Compile Include="Chart\Layouts\DonutChart.cs" />
+    <Compile Include="Chart\Layouts\LineChart.cs" />
+    <Compile Include="Chart\Layouts\LineMode.cs" />
+    <Compile Include="Chart\Layouts\PointChart.cs" />
+    <Compile Include="Chart\Layouts\PointMode.cs" />
+    <Compile Include="Chart\Layouts\RadarChart.cs" />
+    <Compile Include="Chart\Layouts\RadialGaugeChart.cs" />
+    <Compile Include="BreathAnimation.cs" />
+    <Compile Include="SpriteKitOverlayScene.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Buddy-Buddy.Buddy-BuddyWatch\Buddy-Buddy.Buddy-BuddyWatch.csproj">
+      <IsWatchApp>true</IsWatchApp>
+      <Project>{C1A8EC5B-91E2-4D61-8CDC-ECA7B5E487CE}</Project>
+      <Name>Buddy-Buddy.Buddy-BuddyWatch</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\breath.png" />
+    <BundleResource Include="Resources\home.png" />
+    <BundleResource Include="Resources\sleepButton.png" />
+    <BundleResource Include="Resources\stats.png" />
+    <BundleResource Include="Resources\awakenessBtn.png" />
+    <BundleResource Include="Resources\mindfulnessBtn.png" />
+    <BundleResource Include="Resources\sleepBtn.png" />
+    <BundleResource Include="Resources\stressBtn.png" />
+    <BundleResource Include="Resources\awakenessButton.png" />
+    <BundleResource Include="Resources\stressButton.png" />
+    <BundleResource Include="Resources\mindfulnessButton.png" />
+    <BundleResource Include="Resources\grass.jpg" />
+    <BundleResource Include="Resources\sky.png" />
+    <BundleResource Include="Resources\images\SceneKit.png" />
+    <BundleResource Include="Resources\images\WoodCubeA.jpg" />
+    <BundleResource Include="Resources\images\WoodCubeB.jpg" />
+    <BundleResource Include="Resources\images\WoodCubeC.jpg" />
+    <BundleResource Include="Resources\images\back.png" />
+    <BundleResource Include="Resources\images\ball.jpg" />
+    <BundleResource Include="Resources\images\baseboard.jpg" />
+    <BundleResource Include="Resources\images\color_envmap.png" />
+    <BundleResource Include="Resources\images\cubeTexture.png" />
+    <BundleResource Include="Resources\images\envmap.jpg" />
+    <BundleResource Include="Resources\images\glossy.png" />
+    <BundleResource Include="Resources\images\icon.png" />
+    <BundleResource Include="Resources\images\krStar.png" />
+    <BundleResource Include="Resources\images\launch.png" />
+    <BundleResource Include="Resources\images\next.png" />
+    <BundleResource Include="Resources\images\splash.png" />
+    <BundleResource Include="Resources\images\starBurst.skn" />
+    <BundleResource Include="Resources\images\wallPaper copy.jpg" />
+    <BundleResource Include="Resources\images\wallPaper.png" />
+    <BundleResource Include="Resources\images\wood-normal.png" />
+    <BundleResource Include="Resources\images\wood.png" />
+    <BundleResource Include="Resources\images\cubemap\back.jpg" />
+    <BundleResource Include="Resources\images\cubemap\bottom.jpg" />
+    <BundleResource Include="Resources\images\cubemap\front.jpg" />
+    <BundleResource Include="Resources\images\cubemap\left.jpg" />
+    <BundleResource Include="Resources\images\cubemap\right.jpg" />
+    <BundleResource Include="Resources\images\cubemap\top.jpg" />
+    <BundleResource Include="Resources\images\earth\Credit.txt" />
+    <BundleResource Include="Resources\images\earth\earth-diffuse.jpg" />
+    <BundleResource Include="Resources\images\earth\earth-specular.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>
